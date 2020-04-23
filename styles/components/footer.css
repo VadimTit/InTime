@@ -1,0 +1,32 @@
+.footer-social img{
+    padding: 0 10px;
+    height: 20px;
+    width: auto;
+}
+.footer-social img:first-child{
+    height: 30px;
+}
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 50px 0;
+}
+.footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.footer-description {
+    margin: 0;
+}
+.footer {
+    border-top: 1px solid #e0e9f0;
+}

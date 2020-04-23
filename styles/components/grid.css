@@ -1,0 +1,24 @@
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -10px;
+}
+.grid > .grid-item {
+  padding: 10px;
+}
+.grid-item-distance {
+  padding-top: 10px;
+}
+.grid-item-xl {
+  padding-right: 25px !important;
+}
+.grid-item-sm {
+  padding-left: 25px !important;
+}
+.grid-image-sm img{
+  height: 300px;
+}

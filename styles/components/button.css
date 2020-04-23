@@ -1,0 +1,57 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  border-radius: 0;
+  border: 1px solid transparent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 16px;
+  outline: none;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:focus {
+  outline: none;
+}
+.button-full {
+  width: 100%;
+}
+.button-primary {
+  color: #009688;
+  background-color: #fff;
+  padding: 17px 0;
+  border-radius: 5px;
+  border: 2px solid #009688;
+}
+.button-primary:hover {
+  color: #fff;
+  background-color: #009688;
+}
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+.button-large {
+  padding: 22px 64px;
+}
+.button-medium {
+  padding: 12px 24px;
+}
+.button::after {
+  content: url(../../images/left-arrow.png);
+  position: relative;
+  left: 10px;
+  top: 1px;
+}

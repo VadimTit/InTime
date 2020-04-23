@@ -1,0 +1,34 @@
+.list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.list ol {
+    padding: 34px 0 0 15px;
+}
+.list ol li a{
+    padding-bottom: 25px;
+}
+.list-contacts {
+    position: relative;
+}
+.list-contacts li {
+    list-style: none;
+    padding: 7px 0;
+}
+.list-contacts li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #282b2f;
+    font-weight: bold;
+}
+.list-contacts {
+   margin: 0;
+}
+.list-contacts-primary::before {
+    content: url(../../images/call-answer.png);
+    position: absolute;
+    left: 8px;
+}
+.list ol li {
+    padding: 13px 0;
+}

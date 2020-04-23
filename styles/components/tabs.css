@@ -1,0 +1,38 @@
+.tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 2px solid #009688;
+    padding-top: 50px;
+}
+.tabs-active {
+    padding: 22px 60px;
+    background-color: #009688;
+    color:#fff;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tabs-unactive {
+    padding: 22px 60px;
+    border-top: 2px solid #009688;
+    border-left: 2px solid #009688;
+    border-right: 2px solid #009688;
+    border-radius: 5px 5px 0 0;
+    margin-left: 4px;
+    color: #009688;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tabs-description {
+    font-weight: 300;
+    line-height: 26px;
+    padding-bottom: 95px;
+}
+.tabs-title {
+    margin:0;
+}
+.tabs-unactive:hover {
+    background-color: #009688;
+    color: #fff;
+}

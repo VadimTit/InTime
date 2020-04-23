@@ -1,0 +1,32 @@
+.breadcrumb {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+.breadcrumb > li:not(:last-child)::after {
+  content: ">";
+  margin: 0 8px;
+}
+.breadcrumb > li > a {
+  color: #282b2f;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.breadcrumb > li > a:hover {
+  text-decoration: underline;
+}
+.breadcrumb > li > *:not(a) {
+  color: #78909c;
+  pointer-events: none;
+}
+.breadcrumb span {
+  font-size: 14px;
+}

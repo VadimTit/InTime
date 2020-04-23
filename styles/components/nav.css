@@ -1,0 +1,20 @@
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+}
+.nav .nav-item {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav .nav-item:hover {
+  text-decoration: underline;
+  color:#009688;
+}
